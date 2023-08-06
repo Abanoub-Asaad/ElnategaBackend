@@ -1,0 +1,10 @@
+server:
+  port: 2001
+
+spring:
+  application:
+    name: elnatega
+  datasource:
+    url: ${DATABASE_URL}
+    username: ${DATABASE_USERNAME}
+    password: ${DATABASE_PASSWORD}
